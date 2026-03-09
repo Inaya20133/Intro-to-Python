@@ -75,8 +75,51 @@ t1.end_fill()
 
 
 t1.penup()
-t1.setheading()
-t1.forward(5)
+t1.setheading(150)
+t1.forward(50)
+t1.pendown()
+t1.fillcolor("pink")
+t1.begin_fill()
+t1.circle(20)
+t1.end_fill()
+t1.setheading(200)
+t1.forward(10)
+t1.color("black")
+t1.circle(2)
+
+t1.penup()
+t1.goto(0,-0)
+
+
+
+
+
+#seaweed orange/yellow
+##t1.color("yellow")
+##t1.penup()
+##t1.goto()
+##t1.pendown()
+##t1.setheading(90)
+##t1.forward(100)
+##t1.setheading(180)
+##t1.forward(20)
+##t1.setheading(280)
+##t1.forward(25)
+##t1.setheading(150)
+##t1.forward(20)
+##t1.setheading(260)
+##t1.forward(10)
+##t1.setheading(280)
+##t1.forward(20)
+
+
+
+
+
+
+
+
+
 
 
 
