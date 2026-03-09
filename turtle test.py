@@ -74,6 +74,11 @@ t1.forward(50)
 t1.end_fill()
 
 
+t1.penup()
+t1.setheading()
+t1.forward(5)
+
+
 
 
 ##t1.forward(85)
